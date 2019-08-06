@@ -8,7 +8,7 @@ from got.manager import TweetCriteria, TweetManager
 
 
 QUERY_STRING = 'BrunoLatourAIME OR modesofexistence OR "modes of existence" OR url:"modesofexistence org" OR "Bruno Latour" OR brunolatour'
-NB_TWEETS = 50
+NB_TWEETS = 20
 
 
 query = TweetCriteria().setQuerySearch(QUERY_STRING).setMaxTweets(NB_TWEETS)
