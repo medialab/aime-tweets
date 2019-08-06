@@ -1,0 +1,22 @@
+format: Array JSON
+
+fields:
+- "date": timestamp
+- "id": long
+- "link": url
+- "message": string
+- "screenname": string
+
+query:
+- BrunoLatourAIME
+- "Bruno Latour"
+- brunolatour
+- "modes of existence"
+- modesofexistence
+- url:"modesofexistence org"
+- // aimeproject NOT:aimeproject.org
+ 
+params:
+- 10 used, collect 50 ?
+- ordered by date DESC
+
