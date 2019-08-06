@@ -8,7 +8,7 @@ Collect latest tweets related to Bruno Latour and ModesOfExistence.org for displ
 Clone this repository, then create a Python2.7 virtualenv, for instance using [pyenv](https://github.com/pyenv/pyenv-installer):
 
 ```
-git clone https://github.com/medialab/aime-tweets
+git clone --recursive https://github.com/medialab/aime-tweets
 cd aime-tweets
 pyenv install 2.7.15
 pyenv virtualenv 2.7.15 aime-tweets
